@@ -19,23 +19,23 @@ public class DwiRiyono {
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
-        String nama, npm, kelas, tgl;
+        String nama, nik, jabatan, tgl;
         
         System.out.print("Masukkan Nama Anda : ");
         nama = input.nextLine();
         
-        System.out.print("Masukkan Npm Anda  : ");
-        npm = input.nextLine();
+        System.out.print("Masukkan Nik Anda  : ");
+        nik = input.nextLine();
        
-        System.out.print("Masukkan Kelas     : ");
-        kelas = input.nextLine();
+        System.out.print("Masukkan jabatan     : ");
+        jabatan = input.nextLine();
         
         System.out.println("Masukan Tgl Lahir     : ");
         tgl  = input.nextLine();
        //output
                System.out.println("Nama         :"+nama);
-               System.out.println("Npm          :"+npm);
-               System.out.println("Kelas        :"+kelas);
+               System.out.println("Nik          :"+nik);
+               System.out.println("Jabatan       :"+jabatan);
                System.out.println("Tgl Lahir    :"+tgl);
    
    
